@@ -1,4 +1,4 @@
-# 🎬 **Netflix Clone**
+j# 🎬 **Netflix Clone**
 
 A **Frontend UI Clone** of **Netflix** built using **HTML, CSS, and JavaScript**.  
 This project is **static**, **responsive**, and **beginner-friendly** — aimed at replicating the **Netflix user interface** for **learning** and **demonstration purposes**.
@@ -10,21 +10,37 @@ This project is **static**, **responsive**, and **beginner-friendly** — aimed 
 ![image alt](https://github.com/SuddamallaChaitanya/NETFLIX-CLONE/blob/5a6c9f4bffa373be3273dbec600c15819b3f9ecf/Screenshot%202025-06-12%20205354.png)
 
  # 🗂 **Project Folder Structure**
- 
-## 🗂 Folder Structure
 
-Netflix-Clone/  
-# index.html  
-# profile-details.html  
-# styles.css  
-# profile-details.css  
-# script.js  
-# images/  
-# ├── mission.webp  
-# └── stranger-things.webp  
-# screenshots/  
-# ├── homepage.png  
-# └── profile.png
+Netflix-Clone/
+# index.html                 → Home page
+# profile-details.html       → Profile page
+# styles.css                 → Global styling
+# profile-details.css        → Profile page-specific styling
+# script.js                  → JavaScript for UI
+# images/
+# ├── mission.webp
+# └── stranger-things.webp
+# screenshots/
+# ├── homepage.png           → Screenshot of home page
+# └── profile.png            → Screenshot of profile page
+
+# **🛠 System Architecture**
+
+This is a pure **frontend static project**. No backend, database, or system architecture is needed.
+
+#🚀 **How to Run the Project Locally**
+
+#🔹 **1. Clone the Repository**
+
+. git clone https://github.com/SuddamallaChaitanya/netflixclone.git
+
+#🔹 **2. Open the Files**
+
+.index.html
+
+.profile-details.html
+
+🧠 No backend or local server needed — this is a static HTML/CSS/JS project.
 
 
 # 🧾 **Features**
