@@ -11,18 +11,20 @@ This project is **static**, **responsive**, and **beginner-friendly** — aimed 
 
  # 🗂 **Project Folder Structure**
  
-Netflix-Clone/
-#├── index.html
-#├── profile-details.html
-#├── styles.css
-#├── profile-details.css
-#├── script.js
-#├── images/
-#│   ├── mission.webp
-#│   └── stranger-things.webp
-#├── screenshots/
-#│   ├── homepage.png
-#│   └── profile.png
+## 🗂 Folder Structure
+
+Netflix-Clone/  
+# index.html  
+# profile-details.html  
+# styles.css  
+# profile-details.css  
+# script.js  
+# images/  
+# ├── mission.webp  
+# └── stranger-things.webp  
+# screenshots/  
+# ├── homepage.png  
+# └── profile.png
 
 
 # 🧾 **Features**
