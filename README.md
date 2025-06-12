@@ -13,6 +13,7 @@ This project is **static**, **responsive**, and **beginner-friendly** — aimed 
 
 Netflix-Clone/
 # index.html                 → Home page
+
 # profile-details.html       → Profile page
 # styles.css                 → Global styling
 # profile-details.css        → Profile page-specific styling
@@ -24,6 +25,7 @@ Netflix-Clone/
 # ├── homepage.png           → Screenshot of home page
 # └── profile.png            → Screenshot of profile page
 
+
 # **🛠 System Architecture**
 
 This is a pure **frontend static project**. No backend, database, or system architecture is needed.
@@ -32,7 +34,7 @@ This is a pure **frontend static project**. No backend, database, or system arch
 
 #🔹 **1. Clone the Repository**
 
-. git clone https://github.com/SuddamallaChaitanya/netflixclone.git
+. git clone https://github.com/SuddamallaChaitanya/NETFLIX-CLONE.git
 
 #🔹 **2. Open the Files**
 
@@ -41,7 +43,6 @@ This is a pure **frontend static project**. No backend, database, or system arch
 .profile-details.html
 
 🧠 No backend or local server needed — this is a static HTML/CSS/JS project.
-
 
 # 🧾 **Features**
 
@@ -52,5 +53,17 @@ This is a pure **frontend static project**. No backend, database, or system arch
 .🖼 Sample media banners and profile selection interface
 
 .🔧 No backend — purely HTML, CSS, and JavaScript
+
+# 📖 **About the Project**
+
+.This project is a UI replica of Netflix, designed as a beginner-friendly static site to learn:
+
+.Page layout using HTML/CSS
+
+.Responsive design with Flexbox/Grid
+
+.CSS separation for pages
+
+.JavaScript DOM interaction basics
 
 
