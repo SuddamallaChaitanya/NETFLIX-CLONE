@@ -1,0 +1,316 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #141414;
+  color: #fff;
+}
+
+/* Navbar */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 20px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), transparent);
+  z-index: 100;
+}
+
+.logo {
+  height: 25px;
+}
+
+.navbar-nav {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-link {
+  color: #e5e5e5;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.nav-link:hover {
+  color: #b3b3b3;
+}
+
+.navbar-right {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.navbar-right i {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.profile-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 5px;
+}
+
+/* Hero */
+.hero {
+  height: 80vh;
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url("Stranger-things.webp") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 60px;
+  margin-bottom: 20px;
+}
+
+.hero-content {
+  max-width: 600px;
+}
+
+.hero-title {
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+
+.hero-description {
+  font-size: 18px;
+  margin-bottom: 24px;
+  color: #e5e5e5;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 16px;
+}
+
+.btn {
+  background-color: #fff;
+  color: #000;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: none;
+  padding: 8px 16px;
+}
+
+.play-btn {
+  background-color: #fff;
+}
+
+.play-btn:hover {
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.info-btn {
+  background-color: #fff;
+}
+
+.info-btn:hover {
+  background-color: rgba(109, 109, 110, 0.4);
+  color: #fff;
+}
+
+/* Section */
+.container {
+  max-width: 100%;
+  padding: 4%;
+}
+
+.content-section {
+  margin-bottom: 50px;
+}
+
+.section-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+/* Row */
+.content-row {
+  display: flex;
+  gap: 15px;
+  overflow-x: auto;
+}
+
+.content-row::-webkit-scrollbar {
+  height: 8px;
+}
+
+.content-row::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 5px;
+}
+
+/* Card */
+.content-card {
+  position: relative;
+  min-width: 250px;
+  height: 140px;
+  border-radius: 8px;
+  overflow: hidden;
+  flex-shrink: 0;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.content-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: filter 0.3s ease;
+}
+
+.content-card:hover img {
+  filter: brightness(0.4);
+}
+
+/* Overlay + Badge */
+.netflix-badge {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  background-color: #e50914;
+  width: 24px;
+  height: 24px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.card-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px;
+  opacity: 0;
+  transition: 0.3s ease;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9), transparent);
+}
+
+.content-card:hover .card-overlay {
+  opacity: 1;
+}
+
+.overlay-control {
+  display: flex;
+  gap: 8px;
+}
+
+.control-btn {
+  width: 35px;
+  height: 35px;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.control-btn:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: scale(1.1);
+}
+
+.play-btn::before {
+  content: "▶";
+}
+
+.check-btn::before {
+  content: "✔";
+}
+
+.thumbs-btn::before {
+  content: "👍";
+}
+
+.more-btn::before {
+  content: "➕";
+}
+
+.overlay-info {
+  display: flex;
+  gap: 10px;
+  font-size: 10px;
+  flex-wrap: wrap;
+}
+
+.info-batch {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 3px 6px;
+  border-radius: 3px;
+}
+
+/* Footer background and padding */
+footer {
+  background-color: #111;
+  color: #fff;
+  padding: 30px 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Social Media Icons */
+.footer-social-icons {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.footer-social-icons a {
+  display: inline-block;
+  margin: 0 10px;
+  transition: transform 0.3s ease;
+}
+
+.footer-social-icons a:hover {
+  transform: scale(1.2);
+}
+
+/* Footer Links - 4 columns */
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.footer-links div {
+  flex: 1;
+  min-width: 200px;
+  margin: 10px;
+}
+
+.footer-links p {
+  margin: 8px 0;
+}
+
+.footer-links a {
+  color: #bbb;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #fff;
+}
