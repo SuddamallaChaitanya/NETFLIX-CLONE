@@ -11,23 +11,15 @@ This project is **static**, **responsive**, and **beginner-friendly** — aimed 
 
  # 🗂 **Project Folder Structure**
 
- Netflix-Clone/
-├── index.html # Home page
-├── profile-details.html # Profile page
-├── styles.css # Global styling
-├── profile-details.css # Profile-specific styles
-├── script.js # JavaScript for UI interactivity
-├── images/
-│ ├── mission.webp
-│ └── stranger-things.webp
-├── screenshots/
-│ ├── homepage.png
-│ └── profile.png
-
+<pre> ## 🗂 Folder Structure ``` Netflix-Clone/ ├── index.html # Home page ├── profile-details.html # Profile page ├── styles.css # Global styling ├── profile-details.css # Profile-specific styles ├── script.js # JavaScript for UI interactivity ├── images/ │ ├── mission.webp │ └── stranger-things.webp ├── screenshots/ │ ├── homepage.png │ └── profile.png ``` </pre>
 # 🧾 **Features**
+
 .📱 Responsive design(mobile-friendly)
+
 .🎨 Custom CSS styling with separate page-specific stylesheets
+
 .🖼 Sample media banners and profile selection interface
+
 .🔧 No backend — purely HTML, CSS, and JavaScript
 
 
