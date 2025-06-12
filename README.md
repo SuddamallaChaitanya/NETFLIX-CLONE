@@ -5,4 +5,4 @@ This project is **static**, **responsive**, and **beginner-friendly** — aimed 
 
 ![image alt](https://github.com/SuddamallaChaitanya/NETFLIX-CLONE/blob/29284999746915b28797a96be07249cf1c3ba277/Screenshot%202025-06-12%20214041.png)
 ![image alt]()
-![image alt]()
+![image alt](https://github.com/SuddamallaChaitanya/NETFLIX-CLONE/blob/5a6c9f4bffa373be3273dbec600c15819b3f9ecf/Screenshot%202025-06-12%20205354.png)
