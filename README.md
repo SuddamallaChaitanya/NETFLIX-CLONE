@@ -1,4 +1,4 @@
-🎬 **Netflix Clone**
+# 🎬 **Netflix Clone**
 
 A **Frontend UI Clone** of **Netflix** built using **HTML, CSS, and JavaScript**.  
 This project is **static**, **responsive**, and **beginner-friendly** — aimed at replicating the **Netflix user interface** for **learning** and **demonstration purposes**.
@@ -11,15 +11,15 @@ This project is **static**, **responsive**, and **beginner-friendly** — aimed 
 
  # 🗂 **Project Folder Structure**
 
-#Netflix-Clone/
-#index.html                 → Home page
-#profile-details.html       → Profile page
-#styles.css                 → Global styling
- #profile-details.css        → Profile page-specific styling
-#script.js                  → JavaScript for UI
-# images/
- ├── mission.webp
- └── stranger-things.webp
+Netflix-Clone/
+├── index.html                   # Home page
+├── profile-details.html         # Profile page
+├── styles.css                   # Global styling
+├── profile-details.css          # Profile page styling
+├── script.js                    # JS file
+├── images/
+│   ├── mission.webp
+│   └── stranger-things.webp
 
 # **🛠 System Architecture**
 
@@ -37,7 +37,7 @@ This is a pure **frontend static project**. No backend, database, or system arch
 
 • profile-details.html
 
-🧠 No backend or local server needed — this is a static HTML/CSS/JS project.
+🔸 Note: No backend or server required. This is a pure frontend project.
 
 # 🧾 **Features**
 
