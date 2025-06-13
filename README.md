@@ -1,4 +1,4 @@
-j# 🎬 **Netflix Clone**
+# 🎬 **Netflix Clone**
 
 A **Frontend UI Clone** of **Netflix** built using **HTML, CSS, and JavaScript**.  
 This project is **static**, **responsive**, and **beginner-friendly** — aimed at replicating the **Netflix user interface** for **learning** and **demonstration purposes**.
@@ -38,32 +38,32 @@ This is a pure **frontend static project**. No backend, database, or system arch
 
 #🔹 **2. Open the Files**
 
-.index.html
+• index.html
 
-.profile-details.html
+• profile-details.html
 
 🧠 No backend or local server needed — this is a static HTML/CSS/JS project.
 
 # 🧾 **Features**
 
-.📱 Responsive design(mobile-friendly)
+• 📱 Responsive design(mobile-friendly)
 
-.🎨 Custom CSS styling with separate page-specific stylesheets
+• 🎨 Custom CSS styling with separate page-specific stylesheets
 
-.🖼 Sample media banners and profile selection interface
+• 🖼 Sample media banners and profile selection interface
 
-.🔧 No backend — purely HTML, CSS, and JavaScript
+• 🔧 No backend — purely HTML, CSS, and JavaScript
 
 # 📖 **About the Project**
 
-.This project is a UI replica of Netflix, designed as a beginner-friendly static site to learn:
+• This project is a UI replica of Netflix, designed as a beginner-friendly static site to learn:
 
-.Page layout using HTML/CSS
+ • Page layout using HTML/CSS
 
-.Responsive design with Flexbox/Grid
+• Responsive design with Flexbox/Grid
 
-.CSS separation for pages
+• CSS separation for pages
 
-.JavaScript DOM interaction basics
+• JavaScript DOM interaction basics
 
 
