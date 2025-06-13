@@ -11,18 +11,18 @@ This project is **static**, **responsive**, and **beginner-friendly** — aimed 
 
  # 🗂 **Project Folder Structure**
 
-Netflix-Clone/
-# index.html                 → Home page
+# Netflix-Clone/
+index.html                 → Home page
 
-# profile-details.html       → Profile page
-# styles.css                 → Global styling
-# profile-details.css        → Profile page-specific styling
-# script.js                  → JavaScript for UI
+profile-details.html       → Profile page
+styles.css                 → Global styling
+ profile-details.css        → Profile page-specific styling
+script.js                  → JavaScript for UI
 # images/
-# ├── mission.webp
-# └── stranger-things.webp
+ ├── mission.webp
+ └── stranger-things.webp
 # screenshots/
-# ├── homepage.png           → Screenshot of home page
+├── homepage.png           → Screenshot of home page
 # └── profile.png            → Screenshot of profile page
 
 
@@ -30,13 +30,13 @@ Netflix-Clone/
 
 This is a pure **frontend static project**. No backend, database, or system architecture is needed.
 
-#🚀 **How to Run the Project Locally**
+🚀 **How to Run the Project Locally**
 
-#🔹 **1. Clone the Repository**
+🔹 **1. Clone the Repository**
 
 . git clone https://github.com/SuddamallaChaitanya/NETFLIX-CLONE.git
 
-#🔹 **2. Open the Files**
+🔹 **2. Open the Files**
 
 • index.html
 
