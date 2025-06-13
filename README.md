@@ -12,11 +12,11 @@ This project is **static**, **responsive**, and **beginner-friendly** — aimed 
  # 🗂 **Project Folder Structure**
 
 Netflix-Clone/
-├── index.html                   # Home page
-├── profile-details.html         # Profile page
-├── styles.css                   # Global styling
-├── profile-details.css          # Profile page styling
-├── script.js                    # JS file
+├── index.html               # Home page
+├── profile-details.html     # Profile page
+├── styles.css               # Global styling
+├── profile-details.css      # Profile page styling
+├── script.js                # JavaScript file
 ├── images/
 │   ├── mission.webp
 │   └── stranger-things.webp
