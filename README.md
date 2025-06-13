@@ -11,6 +11,8 @@ This project is **static**, **responsive**, and **beginner-friendly** — aimed 
 
  # 🗂 **Project Folder Structure**
 
+pre>
+```
 Netflix-Clone/
 ├── index.html               # Home page
 ├── profile-details.html     # Profile page
@@ -20,6 +22,8 @@ Netflix-Clone/
 ├── images/
 │   ├── mission.webp
 │   └── stranger-things.webp
+```
+</pre>
 
 # **🛠 System Architecture**
 
